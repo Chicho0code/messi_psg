@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.top-buttons {
+    background-color: #151e2d;
+    width: 100%;
+    height: 18px;
+    text-align: end;
+    font-family: "Space Mono", monospace;
+    align-items: center;
+}
+
+.top-buttons a {
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.top-buttons a:hover {
+    background-color: rgb(194, 46, 46);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.orange {
+    height: 5px;
+    width: 100%;
+    background-color: rgb(194, 46, 46);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: "Space Mono", monospace;
+    background-color: #ffffff;
+}
+
+header img {
+    padding-left: 15px;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    color: rgb(194, 46, 46);
+    transition: 0.4s;
+}
+
+.main {
+    background-color: #151e2d;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+
+}
+
+.div-about p {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.text-about h2{
+    font-size: 45px;
+    padding: 30px 70px;
+    color:#151e2d;
+    font-family: "Arvo", serif;
+}
+
+.text-about hr {
+    margin: 20px;
+    padding: 5px 20px;
+    background-color: rgb(194, 46, 46);
+    color: rgb(194, 46, 46);
+
+}
+
+.orange-2 {
+    background-color: rgb(194, 46, 46);
+    height: 15px;
+    width: 100%;
+}
+
+.About{
+    align-items: center;
+    justify-content: center;
+}
+
+.div-about {
+    display: flex;
+}
+
+.news {
+    background-color: #0d141f;
+    height: 500px;
+    width: 100%;
+}
+
+.news h2 {
+    color: #a9a9a9;
+    font-family: "Space Mono", monospace;
+}
+
+.red2 {
+    height: 5px;
+    width: 100%;
+    background-color:rgb(194, 46, 46);
+}
+
+footer {
+    padding: 20px;
+    background-color: #151e2d;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+.red {
+    align-items: center;
+    height: 5px;
+    width: 90%;
+    background-color: rgb(194, 46, 46);
+    padding-left: 10%;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    gap: 20px;
+    font-family: "Space Mono", monospace;
+}
+.nav-footer h4 {
+    color: #a9a9a9;
+    font-size: 25px;
+    padding: 15px 0px;
+}
+
+.nav-footer div p{
+    color: #a9a9a9;
+    font-size: 25px;
+}
