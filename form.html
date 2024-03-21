@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Contactate</title>
+</head>
+<body>
+  <a href="index.html">
+  <img src="./images/favicon.png" alt="Logo-psg" height="150px">
+</a>
+    <section class="Formulario">
+        <form action="/enviar" method="POST">
+          <div>
+            <h4 for="nombre">Nombre: </h4>
+            <input type="text" id="nombre" name="nombre" required placeholder="Coloca tu nombre">
+          </div>
+          <div>
+            <h4 for="email">Email: </h4>
+            <input type="email" id="email" name="email" required placeholder="Coloca un email">
+          </div>
+          <div>
+            <h4 for="mensaje">Mensaje: </h4>
+            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribenos tu Mensaje"></textarea>
+          </div>
+          <div>
+            <input type="checkbox" id="suscripcion" name="suscripcion">
+            <label for="suscripcion">Quiero que me compartan informacion y acutalizaciones sobre la pagina</label>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+</section>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Balthazar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Balthazar&family=Goblin+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151e2d;
+    align-items: center;
+    padding-top: 3%;
+    height: 600px;
+    width: 100%;
+}
+
+.Formulario {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; /* Blanco */
+    padding-left: 30%;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  h1 {
+    color: #000000; /* Azul oscuro */
+    font-family: "Balthazar", serif;
+  font-style: normal;
+  font-size: 35px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 10px;
+  }
+  form {
+    width: 500px;
+    height: 320px;
+    background-color: #0e0b29; /* Azul PSG */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+  label {
+    color: #ffffff; /* Blanco */
+  }
+  input {
+    background-color: #efefef;
+  }
+  textarea {
+    background-color: #efefef;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  input[type="checkbox"] {
+    margin-right: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  button[type="submit"] {
+    background-color: rgb(23, 13, 128); /* Blanco */
+    color: #ffffff; /* Azul oscuro */
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  button[type="submit"]:hover {
+    background-color: rgb(194, 46, 46); /* Azul oscuro */
+    color: #FFFFFF; /* Blanco */
+  }
+  #subscripcion {
+    color: black;
+  }
+  a {
+    padding-left: 45%;
+  }
+  a img {
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    border: #FFFFFF;
+    transition: 0.5s;
+  }
+
+  a img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  h4 {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
