@@ -1,8 +1,8 @@
-## CREAMO UNA FAN PAGE DE MESSI EN SU PASADA POR EL PSG ##
+## CREAMOS UNA FAN PAGE DE MESSI EN SU PASADA POR EL PSG ##
 
 Este proyecto fue hecho para el cursado de la materia "Full Stack" en RollinCode 2024
 
-## EQUIPO ##
+## EQUIPO: ##
 - Aye Alvarado
 - Facundo Alvarado
 - Jeremias Pedraza
