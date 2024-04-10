@@ -21,4 +21,6 @@ verlos.
 Colocamos muchas imagenes hay que aclarar es algo que corregiremos en los proximos dias asi le 
 damos una mejor optimizacion y funcionamiento a la pagina.
 
+## ACA TE DEJAMOS EL LINK DEL DEPLOYD REALIZADO EN NETLIFY ##
+https://messi-fan-page-psg-section.netlify.app/
 ## MUCHAS GRACIAS ##
